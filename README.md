@@ -37,7 +37,9 @@ cd GOOGLE_CLOUD_SHELL_SETUP
 3.  **Run the Setup Script**  
     Execute the script to install all required dependencies and configure your environment:
 ```bash
-./setup.sh
+chmod +x install.sh
+chmod +x rust_env_setup.sh
+./install.sh
 ``` 
 
 * The script will prompt you for any additional configurations, and then proceed to install the necessary development tools.
